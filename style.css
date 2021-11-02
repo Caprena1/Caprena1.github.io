@@ -1,0 +1,139 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    
+}
+
+div {
+    background:rgb(255, 225, 199);
+    flex: 2;
+    font-style: italic;
+    
+   
+}
+
+/*===============TAG SELECTOR====================*/
+
+p {
+    color: rgb(116, 9, 101);
+    width: bold;
+    background:rgb(255, 225, 199);
+    font-family: cursive;
+}
+
+/*===============CLASS SELECTOR===================*/
+
+.profile-pic {
+    width: 200px;
+    
+}
+
+.pink-border {
+    border: 8px solid rgb(179, 28, 158);
+    
+}
+.border {
+    border: 7px solid rgb(179, 28, 158);
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.contact {
+    background-size: 40px;
+    margin-block: 40px;
+    
+}
+.container {
+    width: 300px;
+    height: 250px;
+    overflow-y: hidden;
+    display: flex;
+    background-color:rgb(255, 225, 199);
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.container .item {
+    flex: 0 0 300px;
+    width: 300px;
+    display: inline-flex;
+    justify-content: center;
+    font-weight:400;
+    font-size: 3rem;
+    background-color:rgb(255, 225, 199);
+    scroll-snap-align: start;
+}
+
+.smallerfont {
+    font-size: 15px;
+}
+
+.smallfont {
+    font-size: 20px;
+}
+
+.mediumfont {
+    font-size: 30px;
+}
+
+.fw-bolder {
+    font-weight: bold;
+}
+
+    
+.background {
+    background-image: url(images/pinktreeinwater.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    background-color:rgb(255, 225, 199);
+    color:rgb(179, 28, 158);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;  
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block
+    
+}
+.button1 {
+    background-color:rgb(255, 225, 199);
+    color:rgb(179, 28, 158);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;  
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    
+      
+}
+
+
+
+/*==================ID SELECTORS==================*/
+
+#UniqueID {
+    font-size: 14px;
+   
+}
+
+
+
+
+
