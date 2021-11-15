@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    padding: 5px;
     
     
 }
@@ -21,8 +22,8 @@ header {
 div {
     background:rgb(255, 225, 199);
     flex: 2;
-    font-style: italic;
-    
+    width: bold;
+    font-family: cursive;
    
 }
 
@@ -33,6 +34,7 @@ p {
     width: bold;
     background:rgb(255, 225, 199);
     font-family: cursive;
+    padding: 5px;
 }
 
 /*===============CLASS SELECTOR===================*/
@@ -59,8 +61,8 @@ p {
     
 }
 .container {
-    width: 300px;
-    height: 250px;
+    width: 50px;
+    height: 50px;
     overflow-y: hidden;
     display: flex;
     background-color:rgb(255, 225, 199);
@@ -68,14 +70,14 @@ p {
     scroll-behavior: smooth;
 }
 .container .item {
-    flex: 0 0 300px;
-    width: 300px;
+    flex: 0 0 50px;
+    width: 50px;
     display: inline-flex;
-    justify-content: center;
+    justify-content: right;
     font-weight:400;
     font-size: 3rem;
     background-color:rgb(255, 225, 199);
-    scroll-snap-align: start;
+    scroll-snap-align: end;
 }
 
 .smallerfont {
@@ -113,6 +115,18 @@ p {
     
 }
 .button1 {
+    background-color:rgb(255, 225, 199);
+    color:rgb(179, 28, 158);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;  
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    
+      
+}
+
+.button2 {
     background-color:rgb(255, 225, 199);
     color:rgb(179, 28, 158);
     font-size: 20px;

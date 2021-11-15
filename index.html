@@ -11,36 +11,48 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="pink-border background"> 
-    <button onclick="simple_button" type="button" value="button" class = "button">
-        About Me:
-    </button>
-    <button onclick="contact_button" type="contact" value="contact" class = "button1">
-        Contact Me:
-    </button>
-    <script>
-        document.querySelector('.button')
-    </script>
-    <header>
-         <section>
+<body class="pink-border background" >  
+       <button onclick="aboutMe()" type="button" value="button" class = "button">
+            About Me
+        </button>
+        <script>
+                let note = document.querySelector('.button');
+        </script>
+        
+        
+        <button onclick="contact_button" type="contact" value="contact" class = "button1">
+            Contact Me
+        </button>
+        <script>
+            let note = document.querySelector('.button1');
+        </script>
+        <button onclick="contact_button" type="contact" value="contact" class = "button2">
+            Resume
+        </button>
+        <script>
+           
+            let note = document.querySelector('button2');
+        </script>
+        
+    <header style="float: right;">
+        <section>
             <h1 class = "logo-container mediumfont border">Caprena Richie</h1>
-            <h1 class = "logo-container smallfont border">Introducing CREATIVE VISIONS</h1>
             <img class="profile-pic" src="images/IMG_0633.jpg" alt="">
         </section>
         <section>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="images/softwaredevpic.jpg" class="d-block w-100" alt="...">
+                    <img src="images/softwaredevpic.jpg" class="d-block w-50">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/portfolio2.png" class="d-block w-100" alt="...">
+                    <img src="images/portfolio2.png" class="d-block w-60">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/portfolio3.png" class="d-block w-100" alt="...">
+                    <img src="images/portfolio3.png" class="d-block w-60">
                   </div>
                   <div class="carousel-item">
-                    <img src="images/gitpic.png" class="d-block w-100" alt="...">
+                    <img src="images/gitpic.png" class="d-block w-60">
                   </div>
                 </div>
                <!--- <button type="button" class="btn btn-primary btn-sm">Small button</button>
@@ -62,31 +74,28 @@
         </div> 
         </section>
     </header>
-         <section>
+ 
+  
+         <section style="width: 500px;">
+            <h2 class="fw-bolder" style="text-align: center;">About Me </h2>
             <div >
-                <p class="fw-bolder">A determined, passionate person who is excited and ready to use my skills
+                <p class="fw-bolder">My name is Caprena Richie and I am a web developer. 
+                    I am familiar with ASP.Net framework SQL databse. I am a very determined and passionate 
+                    person who is excited and ready to use my skills
                     as a developer to be an asset to a thriving company.
                 </p>
             </div>
          </section>
 
-    <div class="smallfont contact">
+    <div class="smallfont contact" style= "width: 500px;">
         <h1 class="smallfont">Contact Me:</h1>
         <ul class="smallfont"> 
             <li><a href="tel:589-405-3849">Phone: 589-405-3849</a></li>
             <li><a href="mail to:robcaprena@gmail.com">Email: robcaprena@gmail.com</a></li>
         </ul>
     </div>  
-    
-    <section>
-        <h1 class="smallfont fw-bolder">Work Experience:</h1>
-        <ul>
-            <li>Full Stack Developer specializing in .NET</li>
-            <li>Specializing in MySQL</li>
-            <li>Designing database structures and tables</li>
-        </ul>
-    </section>
-    <section>
+
+    <section style="width: 500px;">
         <h1 class="smallfont fw-bolder">Education:</h1>
         <p>
             Attended TrueCoders Full Stack Software Engineering Program. Projects included
@@ -100,8 +109,20 @@
             <li>C# and SQL Projects were tracked using Git and GitHub for source control</li>
 
         </ul>
+ 
+    </section >
+         
+    <section style="width: 500px;">
+        <h1 class="smallfont fw-bolder">Work Experience:</h1>
+        <ul>
+            <li>Full Stack Developer specializing in .NET</li>
+            <li>Specializing in MySQL</li>
+            <li>Designing database structures and tables</li>
+        </ul>
+   
     </section>
-    <section>
+  
+   <section style="width: 500px;">
         <h1 class="smallfont fw-bolder">Skills:</h1>
         <ul>
             <li>.NET Technologies and Languages:</li>
@@ -113,6 +134,15 @@
        </ul>
     </section>
     <section>
+        <h1 class="smallfont fw-bolder" >Projects</h1>
+        <p id="UniqueID"> ASP.NET Core MVC-Library Management System</p>
+
+            <li>Created a library book management system by creating and mering in a MySQL Database</li>
+            <li>Employed MVC-Model, View, Controller and CRUD-Create, Read, View, and Delete functions within the program</li>
+            <a href="https://Caprena1.github.io">Caprena1.github.io</a>
+        
+    </section>
+    <section>
         <h1 class="smallfont fw-bolder" >Volunteer Work</h1>
         <p id="UniqueID">
             Full-time voluntary missionary work (Devoted 850 hours annually for
@@ -120,6 +150,8 @@
             earnest desire and determinationto grow and learn new things.
         </p>
     </section>  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>                     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
+    <script>src="js/main.js"</script>                  
 </body>
 </html>
