@@ -87,7 +87,6 @@ h2 {
 p {
 
     font-family: 'Poppins', sans-serif;
-    /* padding: 5px; */
     font-size: 20px;
 }
 
@@ -129,14 +128,13 @@ p {
 }
     
 .border {
-    border: 7px solid rgb(6, 6, 39);
+    border: 10px solid rgb(6, 6, 39);
     min-height: 100vh;
     
 }
 
  .background {
-     /* background-color: rgba(211, 191, 167, 0.637); */
-     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-4PTPzYfAoF3VoR6k0806uQ5N18RUk1YnUA&usqp=CAU) no-repeat center center fixed;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-4PTPzYfAoF3VoR6k0806uQ5N18RUk1YnUA&usqp=CAU) no-repeat center center fixed;
     background-size: cover;
  }
     
@@ -162,7 +160,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* margin: 3rem 0; */
+   
 }
 
 
@@ -189,8 +187,9 @@ p {
 .column-1 section { 
     display: flex;
     flex-direction: column;
-    margin:auto 5rem; 
-} 
+    margin: auto 5rem; 
+    margin-right: 15px
+}  
 
 .experience-section {
     padding-top: 1rem;
@@ -201,7 +200,7 @@ p {
 .project-card img {
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 400px;
     height:300px;
     margin-top: 50px;  
     margin-left: 100px; 
