@@ -200,10 +200,10 @@ p {
 .project-card img {
     display: flex;
     justify-content: space-between;
-    width: 400px;
-    height:300px;
+    width: 300px;
+    height:200px;
     margin-top: 50px;  
-    margin-left: 100px; 
+    margin-left: 25px; 
 }
 
 .project-card p {
